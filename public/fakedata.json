@@ -3,62 +3,53 @@
     "title": "Use Computer",
     "details": "I use the computer daily, wear various articles on it sometimes, and play games in my spare time.",
     "img": "https://cdn.pixabay.com/photo/2014/04/04/17/53/computer-313840_960_720.jpg",
-    "age": 1,
     "timeRequred": 45
   }, {
     "id": 2,
     "title": "Help At Home",
     "details": "I try to spend time with my family, and help them in many ways, especially during the holidays.",
     "img": "https://images.unsplash.com/photo-1618935810018-dd4adbb64b78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "age": 2,
     "timeRequred": 40
   }, {
     "id": 3,
     "title": "visited my grand Parents",
     "details": "I love my grandpa dida, I like to spend time with them, they tell me their stories, which I like very much, doda loves me very much.",
     "img": "https://images.unsplash.com/photo-1600779438084-a87b966aab99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "age": 3,
     "timeRequred": 30
   }, {
     "id": 4,
     "title": "walk to school",
     "details": "I like to walk to school every day from my house, school is very near from my house, I have some friends with me, we all go to school together.",
     "img": "https://images.unsplash.com/photo-1503676382389-4809596d5290?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80",
-    "age": 4,
     "timeRequred": 15
   }, {
     "id": 5,
     "title": "watch tv",
     "details": "In my spare time I like to watch TV, I watch different kinds of news on TV, besides it is a good way to spend time.",
     "img": "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
-    "age": 5,
     "timeRequred": 55
   }, {
     "id": 6,
     "title": "talk to my friend",
     "details": "I like to spend time with friends, my friends are very sincere, we have a lot of fun together, my friends sometimes go to many places together.",
     "img": "https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-    "age": 6,
     "timeRequred": 50
   }, {
     "id": 7,
     "title": "share my things",
     "details": "I like to think, and I like to share these thoughts with my friends, and I sometimes jot down my thoughts, I like to think about different things.",
     "img": "https://images.unsplash.com/photo-1517939415772-19aa53007105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=797&q=80",
-    "age": 7,
     "timeRequred": 20
   }, {
     "id": 8,
     "title": "physical exercise",
     "details": "The first thing I do every morning is to exercise, it refreshes my body and mind, I am joined by my friends.",
     "img": "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "age": 8,
     "timeRequred": 30
   }, {
     "id": 9,
     "title": "listen to music",
     "details": "I like to listen to music, I listen to music when I feel bad, I love to listen to music",
     "img": "https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "age": 9,
     "timeRequred": 30
   }]

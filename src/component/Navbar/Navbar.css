@@ -1,0 +1,8 @@
+.navbar img{
+    height: 60px;
+
+}
+.navbar{
+    display: flex;
+    background: rgb(237, 184, 184);
+}
