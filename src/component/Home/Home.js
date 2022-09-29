@@ -4,6 +4,7 @@ import AddBreak from '../addBreak/AddBreak';
 import TotalTime from '../ExeciseDetails/TotalTime';
 import Navbar from '../Navbar/Navbar';
 import ProfileInfo from '../profile-info/ProfileInfo';
+import Qna from '../QNA/Qna';
 import './Home.css'
 const Home = () => {
 
@@ -53,6 +54,8 @@ const Home = () => {
                 </div>
 
                 {/* question and answer */}
+
+                    <Qna></Qna>
                 
             </div>
                 {/* dashboard section  */}
@@ -60,6 +63,7 @@ const Home = () => {
                 <ProfileInfo></ProfileInfo>
                 <AddBreak breaktime = {breaktime} ></AddBreak>
                 <TotalTime countbreak = {countbreak} count = {count}></TotalTime>
+                <button className='complete_btn'> Activity Complete </button>
             </div>
         </div>
     );
