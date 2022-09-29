@@ -21,12 +21,19 @@ const Home = () => {
     let addTime = (provioustimme) =>{
         setcount(count + provioustimme)
     }
-    let newbreak;
-    let breaktime = (id) =>{
-         newbreak = id
-         console.log(newbreak)
-        setcountbreak(newbreak)   
+
+    let time = 0
+    let breaktime = (time) =>{
+        localStorage.setItem('breaktime',JSON.stringify(time))
+        setcountbreak(time)
     }
+
+    useEffect(() => {
+      let localstorageData = localStorage.getItem('breaktime',JSON.stringify(time))
+      setcountbreak(localstorageData)
+    }, [time])
+    
+
 
     return (
         <div className='home_container'>
