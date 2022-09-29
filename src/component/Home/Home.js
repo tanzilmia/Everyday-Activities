@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react';
-import { addToDb } from '../../utilities/fakedb';
 import ActivityCart from '../ActivityCart/ActivityCart';
 import AddBreak from '../addBreak/AddBreak';
 import TotalTime from '../ExeciseDetails/TotalTime';
@@ -16,7 +15,7 @@ const Home = () => {
     }, [])
 
     const [count, setcount] = useState(0)
-    const [countbreak, setcountbreak] = useState([])
+    const [countbreak, setcountbreak] = useState(0)
     
     
     let addTime = (provioustimme) =>{
@@ -25,9 +24,8 @@ const Home = () => {
     let newbreak;
     let breaktime = (id) =>{
          newbreak = id
-         localStorage.setItem('break_time',JSON.stringify(newbreak))
-        setcountbreak(newbreak)
-       
+         console.log(newbreak)
+        setcountbreak(newbreak)   
     }
 
     return (
