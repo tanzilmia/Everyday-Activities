@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import ProfileInfo from '../profile-info/ProfileInfo';
 import Qna from '../QNA/Qna';
 import './Home.css'
+import Swal from 'sweetalert2'
 const Home = () => {
 
     const [activities, setactivities] = useState([])
@@ -38,6 +39,9 @@ const Home = () => {
     }, [time])
     
 
+    let setAlert = () =>{
+        Swal.fire('Have a Nice Day !!')
+    }
 
     return (
         <div className='home_container'>
@@ -63,7 +67,7 @@ const Home = () => {
                 <ProfileInfo></ProfileInfo>
                 <AddBreak breaktime = {breaktime} ></AddBreak>
                 <TotalTime countbreak = {countbreak} count = {count}></TotalTime>
-                <button className='complete_btn'> Activity Complete </button>
+                <button onClick={setAlert} className='complete_btn'> Activity Complete </button>
             </div>
         </div>
     );
