@@ -1,0 +1,9 @@
+
+.braktime_div{
+    border: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background: #fff;
+    cursor: pointer;
+}

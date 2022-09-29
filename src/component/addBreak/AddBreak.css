@@ -1,0 +1,13 @@
+.breaks{
+    background: rgb(237 247 254);
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+
+}
+.brak_container h2{
+    margin-left: 15px;
+}

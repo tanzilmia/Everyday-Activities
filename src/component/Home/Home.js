@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import ActivityCart from '../ActivityCart/ActivityCart';
+import AddBreak from '../addBreak/AddBreak';
 import Navbar from '../Navbar/Navbar';
 import ProfileInfo from '../profile-info/ProfileInfo';
 import './Home.css'
@@ -29,6 +30,8 @@ const Home = () => {
 
             <div className='dashboard_container'>
                 <ProfileInfo></ProfileInfo>
+                <AddBreak></AddBreak>
+                
             </div>
         </div>
     );
