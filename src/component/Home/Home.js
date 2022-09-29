@@ -39,16 +39,20 @@ const Home = () => {
         <div className='home_container'>
 
             <div className='activitites_container'>
+                {/* navbar */}
                 <Navbar></Navbar>
                 <div className='activities_wrapping'>
+                    {/* all activities cart */}
                     {
                         activities.map(activity => <ActivityCart addTime = {addTime} key = {activity.id} activity = {activity}></ActivityCart>)
                     }
                     
                 </div>
+
+                {/* question and answer */}
                 
             </div>
-
+                {/* dashboard section  */}
             <div className='dashboard_container'>
                 <ProfileInfo></ProfileInfo>
                 <AddBreak breaktime = {breaktime} ></AddBreak>
