@@ -30,7 +30,10 @@ const Home = () => {
 
     useEffect(() => {
       let localstorageData = localStorage.getItem('breaktime',JSON.stringify(time))
-      setcountbreak(localstorageData)
+      if(localstorageData){
+        setcountbreak(localstorageData)
+      }
+      
     }, [time])
     
 
