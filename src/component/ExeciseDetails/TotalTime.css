@@ -1,11 +1,11 @@
 .totaltime{
     background: rgb(237 247 254);
     display: flex;
-    padding: 10px;
+    padding: 20px 10px;
     border-radius: 10px;
     justify-content: space-between;
     width: 85%;
-    margin: 0 auto;
+    margin: 15px auto;
 
 }
 .times h2{

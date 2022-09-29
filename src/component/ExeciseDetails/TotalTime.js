@@ -1,7 +1,7 @@
 import React from 'react';
 import './TotalTime.css'
 
-const TotalTime = ({count}) => {
+const TotalTime = ({count,countbreak}) => {
     
     return (
         <div className='times'>
@@ -10,6 +10,12 @@ const TotalTime = ({count}) => {
                 <span className='activities_time'>Activitis Time</span>
                 <span> {count} Minutes </span>
             </div>
+            
+            <div className="totaltime">
+                <span className='activities_time'>Break Time</span>
+                <span> {countbreak}  Minutes </span>
+            </div>
+            
         </div>
     );
 };

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Break.css'
-const Break = ({time}) => {
+const Break = ({time,breaktime}) => {
     return (
         <div className='breaksingle'>
-            <button className='braktime_div'> {time} Min </button>
+            <button onClick={()=>breaktime(time)} className='braktime_div'> {time} Min </button>
         </div>
     );
 };
