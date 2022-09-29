@@ -49,3 +49,17 @@
     font-weight: 500;
     color: #8d93ef;
 }
+
+
+/* responsiv */
+
+@media only screen and (max-width: 600px) {
+    .activity_cart{
+        width: 100%;
+        border: 2px solid rgb(244, 244, 244);
+        padding: 15px;
+        background: linear-gradient(#c5e5ff50,#fcfcfca5);
+        border-radius: 10px;
+        box-shadow: 4px 5px 4px rgb(239, 238, 238);
+    }
+  }

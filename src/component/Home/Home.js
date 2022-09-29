@@ -22,7 +22,7 @@ const Home = () => {
         setcount(count + provioustimme)
     }
 
-    let time = 0
+    let time;
     let breaktime = (time) =>{
         localStorage.setItem('breaktime',JSON.stringify(time))
         setcountbreak(time)
