@@ -5,4 +5,5 @@
 .navbar{
     display: flex;
     background: rgb(237, 184, 184);
+    padding: 30px;
 }

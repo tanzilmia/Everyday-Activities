@@ -1,0 +1,35 @@
+.user_names img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.user_names h4,p{
+    margin: 0;
+}
+.user_names p{
+    font-size: 14px;
+}
+.user_names{
+    display: flex;
+    align-items: center;
+}
+.user_wrapping{
+    padding: 20px 15px;
+}
+.info{
+    background: #EDF7FE;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.info h2{
+    margin: 0;
+    color: #5f676d;
+}
+.info h2 span{
+    font-size: 14px;
+    font-weight: normal;
+}

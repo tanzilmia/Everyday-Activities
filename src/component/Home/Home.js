@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import ActivityCart from '../ActivityCart/ActivityCart';
 import Navbar from '../Navbar/Navbar';
+import ProfileInfo from '../profile-info/ProfileInfo';
 import './Home.css'
 const Home = () => {
 
@@ -26,8 +27,8 @@ const Home = () => {
                 
             </div>
 
-            <div className='profile_info'>
-                <h2>Profile info</h2>
+            <div className='dashboard_container'>
+                <ProfileInfo></ProfileInfo>
             </div>
         </div>
     );
