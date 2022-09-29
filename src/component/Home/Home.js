@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import ActivityCart from '../ActivityCart/ActivityCart';
 import AddBreak from '../addBreak/AddBreak';
+import TotalTime from '../ExeciseDetails/TotalTime';
 import Navbar from '../Navbar/Navbar';
 import ProfileInfo from '../profile-info/ProfileInfo';
 import './Home.css'
@@ -12,7 +13,13 @@ const Home = () => {
       .then(res => res.json())
       .then(data => setactivities(data))
     }, [])
+
+    const [count, setcount] = useState(0)
     
+    
+    let addTime = (provioustimme) =>{
+        setcount(count + provioustimme)
+    }
 
     return (
         <div className='home_container'>
@@ -21,7 +28,7 @@ const Home = () => {
                 <Navbar></Navbar>
                 <div className='activities_wrapping'>
                     {
-                        activities.map(activity => <ActivityCart key = {activity.id} activity = {activity}></ActivityCart>)
+                        activities.map(activity => <ActivityCart addTime = {addTime} key = {activity.id} activity = {activity}></ActivityCart>)
                     }
                     
                 </div>
@@ -31,7 +38,7 @@ const Home = () => {
             <div className='dashboard_container'>
                 <ProfileInfo></ProfileInfo>
                 <AddBreak></AddBreak>
-                
+                <TotalTime count = {count}></TotalTime>
             </div>
         </div>
     );
